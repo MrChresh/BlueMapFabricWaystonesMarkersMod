@@ -1,5 +1,5 @@
 # About
-This mod displays all fabric waystones with a marker on the map.
+A mod for BlueMap that creates markers for global waystones (https://github.com/LordDeatHunter/FabricWaystones)
 
 # Usage
 Put into Fabric mods folder.
