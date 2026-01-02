@@ -1,0 +1,8 @@
+.gradle
+.vscode
+.idea
+build
+run
+runServer
+runClient
+JDK

@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "${mod_id}",
+	"version": "${version}",
+	"name": "${mod_name}",
+	"description": "${mod_description}",
+	"authors": [
+		{
+			"name": "chresh",
+			"contact": {
+				"sources": "https://github.com/MrChresh/BlueMapEntityMarkersMod-Fabric",
+				"homepage": ""
+			}
+		}
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "",
+	"environment": "server",
+	"entrypoints": {
+		"server": [
+			"com.chresh.bluemapfabricwaystonemarkersmod.BlueMapWaystoneMarkersMod"
+		]
+	},
+	"mixins": [
+		
+	],
+	"depends": {
+		"fabricloader": ">=${fabric_loader_version}",
+		"minecraft": "~1.20",
+		"java": ">=${java_version}",
+		"fabric-api": "*",
+		"bluemap": "*"
+	}
+}
