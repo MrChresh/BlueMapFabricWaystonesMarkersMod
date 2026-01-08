@@ -2,12 +2,11 @@ package com.chresh.bluemapfabricwaystonemarkersmod;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.logging.log4j.Level;
+//import org.apache.logging.log4j.Level;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,7 +22,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.nbt.*;
 
 import wraith.fwaystones.FabricWaystones;
-import wraith.fwaystones.util.WaystoneStorage;
 
 public class BlueMapWaystoneMarkersMod implements DedicatedServerModInitializer {
 
