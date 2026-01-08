@@ -17,6 +17,3 @@ pluginManagement {
 	}
 
 rootProject.name = "bluemapfabricwaystonemarkersmod"
-include('FabricWaystones-1.20.1')
-project(':FabricWaystones-1.20.1').projectDir = file('FabricWaystones-1.20.1')
-project(':FabricWaystones-1.20.1').buildFileName = 'build.gradle'
